@@ -1,0 +1,40 @@
+\contentsline {chapter}{List of Tables}{iii}
+\contentsline {chapter}{List of Figures}{iii}
+\contentsline {chapter}{Abstract}{iv}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {chapter}{\numberline {2}State of the Art}{4}
+\contentsline {section}{\numberline {2.1}Definitions}{4}
+\contentsline {section}{\numberline {2.2}Literature review - Aggregation of trajectory data}{4}
+\contentsline {section}{\numberline {2.3}\textsf {R} packages}{5}
+\contentsline {chapter}{\numberline {3}Meaningfulness related to aggregation of trajectory data}{8}
+\contentsline {section}{\numberline {3.1}Issues about meaningful aggregation of trajectories}{8}
+\contentsline {section}{\numberline {3.2}Meaningful realization of aggregation}{13}
+\contentsline {chapter}{\numberline {4}Example Data}{15}
+\contentsline {section}{\numberline {4.1}Example data from movebank}{16}
+\contentsline {section}{\numberline {4.2}Example data from the \textsf {R} package {\normalfont \fontseries {b}\selectfont \par@update adehabitatLT}}{18}
+\contentsline {chapter}{\numberline {5}Coercion - Design and Implementation}{19}
+\contentsline {section}{\numberline {5.1}Coercion related to objects defined in {\normalfont \fontseries {b}\selectfont \par@update move}}{19}
+\contentsline {section}{\numberline {5.2}Coercion related to {\tt ltraj} objects defined in {\normalfont \fontseries {b}\selectfont \par@update adehabitatLT}}{25}
+\contentsline {chapter}{\numberline {6}Overlay and Aggregation - Design and Implementation}{28}
+\contentsline {section}{\numberline {6.1}General aspects}{28}
+\contentsline {section}{\numberline {6.2}{\tt over} - Overlay with {\tt Track} objects}{32}
+\contentsline {subsection}{\numberline {6.2.1}Overlay of {\tt STF} and {\tt Track} objects}{35}
+\contentsline {subsection}{\numberline {6.2.2}Overlay of {\tt Spatial} and {\tt Track} objects}{39}
+\contentsline {subsection}{\numberline {6.2.3}Overlay of {\tt Spatial} and {\tt Track} objects ignoring time domain}{42}
+\contentsline {section}{\numberline {6.3}{\tt count} - Counting of trajectories}{44}
+\contentsline {subsection}{\numberline {6.3.1}Counting trajectories over {\tt Spatial} objects}{45}
+\contentsline {subsection}{\numberline {6.3.2}Counting trajectories over {\tt STF} objects}{48}
+\contentsline {section}{\numberline {6.4}{\tt aggregate} - Aggregation of {\normalfont \fontseries {b}\selectfont \par@update trajectories} objects}{50}
+\contentsline {subsection}{\numberline {6.4.1}Spatio-temporal aggregation of {\normalfont \fontseries {b}\selectfont \par@update trajectories} objects}{52}
+\contentsline {subsection}{\numberline {6.4.2}Spatial aggregation of {\normalfont \fontseries {b}\selectfont \par@update trajectories} objects}{57}
+\contentsline {subsection}{\numberline {6.4.3}Spatial aggregation of {\normalfont \fontseries {b}\selectfont \par@update trajectories} objects ignoring time}{60}
+\contentsline {chapter}{\numberline {7}Discussion}{65}
+\contentsline {chapter}{\numberline {8}Conclusions}{68}
+\contentsline {chapter}{\numberline {9}Outlook}{70}
+\contentsline {chapter}{Bibliography}{72}
+\contentsline {chapter}{\numberline {A}Appendix}{75}
+\contentsline {section}{\numberline {A.1}Preparation and coercion of vulture\_moveStack example data}{75}
+\contentsline {section}{\numberline {A.2}Validation of the coercion of {\normalfont \fontseries {b}\selectfont \par@update move} objects to {\normalfont \fontseries {b}\selectfont \par@update trajectories} objects}{77}
+\contentsline {section}{\numberline {A.3}Validation of the coercion of {\normalfont \fontseries {b}\selectfont \par@update trajectories} objects to {\normalfont \fontseries {b}\selectfont \par@update move} objects}{79}
+\contentsline {section}{\numberline {A.4}Validation of the coercion of {\tt ltraj} objects defined in {\normalfont \fontseries {b}\selectfont \par@update adehabitatLT} to objects defined in {\normalfont \fontseries {b}\selectfont \par@update trajectories}}{81}
+\contentsline {section}{\numberline {A.5}Validation of the coercion of objects defined in {\normalfont \fontseries {b}\selectfont \par@update trajectories} to {\tt ltraj} objects defined in {\normalfont \fontseries {b}\selectfont \par@update adehabitatLT}}{83}

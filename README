@@ -1,0 +1,56 @@
+
+##############################
+Comments on Installation and R CMD check:
+##############################
+
+
+### INSTALLATION ###
+There are no issues about the installation.
+#
+
+
+### R CMD check ###
+
+# move package problem
+
+If calling R CMD check with the current version of the move package installed,
+one gets a warning related to a clean unloading of the namespace. In particular:
+Error in .mergeMethodsTable(generic, mtable, get(tname, envir = env),  : ...
+
+This warning is caused by < setClass("ltraj") > in line 20 of the file move2ade.R from the move package.
+(Due to the fact that 'ltraj' is a S3 class the 'setClass' does not make any sense.)
+
+(An adjusted move package is provided, that avoids that warning.)
+
+The implemented generic coercion methods related to class 'ltraj' currently just work with the adjusted move package.
+To avoid problems in creating the vignette these generic coercion methods are not illustrated in the vignette.
+#
+
+
+### Two further issues ###
+
+##
+# Time zone difference in tracksCollectionData and in Track time slots in conjunction with "foreign" time zones
+
+Related to the current release of the package trajectories (Version 0.1-1) on cran:
+When creating TracksCollection objects from Track objects with a "forgein" timezone, 
+the time data in tracksCollectionData (tmin, tmax) differs from the time data in the time slots of the Track objects , 
+that are part of the TracksCollection.
+
+An proposed adjusted version of the package trajectories is provided on GITHUB:
+
+https://github.com/BenGraeler/trajectories
+
+(It was tried to avoid using the tracksCollectionData time in the vignette and in the tests.)
+#
+
+
+##
+# Coercion from trajectories objects to MoveStack or MoveBurst objects
+
+For some (suspicious) reason the methods to coerce Tracks and TracksCollection objects to 
+MoveStack objects or Tracks to MoveBurst need an explicit loading of the move or at least of the sp package,
+although both packages are "imported".
+#
+
+

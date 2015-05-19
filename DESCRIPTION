@@ -1,0 +1,53 @@
+Package: trajaggr
+Version: 0.1
+Title: Meaningful aggregation of trajectory data in R.
+Authors@R: person("Roland", "Harhoff", role = c("cre", "aut"), email =
+    "rolandh@uni-muenster.de")
+Description: The package 'trajaggr' provides S4 generic methods for meaningful
+    aggregation of trajectory data represented by objects defined in the R
+    package 'trajectories'. It includes methods for spatio-temporal overlay of
+    'Track' objects with 'Spatial' objects defined in package 'sp' and STF
+    objects defined in package 'spacetime'. On basis of the 'over' methods for
+    spatio-temporal overlay also 'aggregate' methods are provided to aggregate
+    'Track', 'Tracks' or 'TracksCollection' objects over 'Spatial' or 'STF'
+    objects. Moreover a method 'count' is provided, that may be used to count
+    the number of trajectory objects over 'Spatial' or 'STF' objects. To enable
+    the usage and analysis of (animal) trajectory objects represented by
+    classes defined in other R packages, in particular in the packages 'move'
+    and 'adehabitatLT', bidirectional coercion methods are implemented, that
+    provide coercion between objects defined in 'trajectotries' and objects
+    defined in 'move' and 'adehabitatLT'.
+Depends:
+    R (>= 3.0.2),
+    methods
+Imports:
+    sp (>= 1.0-14),
+    spacetime (>= 1.0-0),
+    trajectories (>= 0.1-1),
+    move,
+    zoo,
+    rgeos,
+    adehabitatLT,
+    xts
+Suggests:
+    circular,
+    plyr,
+    testthat
+License: GPL (>= 2)
+LazyData: true
+Collate:
+    'agg_allGenerics.R'
+    'over_STF.R'
+    'aggregate_by_STF.R'
+    'over_sp_IgnDom.R'
+    'over_sp.R'
+    'aggregate_by_sp.R'
+    'coerce_allGenerics.R'
+    'coerce_ltraj.R'
+    'coerce_move.R'
+    'coerce_toLtraj.R'
+    'coerce_toMove.R'
+    'count.R'
+    'count_over_sp_bySpLines.R'
+    'createArealGeometryObjects.R'
+    'data_creation_and_documentation.R'

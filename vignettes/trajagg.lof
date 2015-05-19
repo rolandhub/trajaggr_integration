@@ -1,0 +1,19 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Spatial 'overlay' of example \texttt {Track} and polygons passed to \texttt {over.}}}{34}
+\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Number of \texttt {Track} objects of a vulture counted over spatial geometries.}}{47}
+\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Individual number of \texttt {Track} objects of two vultures counted over spatial geometries.}}{48}
+\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Number of \texttt {Track} objects of a vulture counted over spatio-temporal geometries.}}{50}
+\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Minimal altitude of a vulture obtained by aggregation over spatio-temporal geometries.}}{54}
+\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Weighted average speed of a vulture obtained by aggregation over spatio-temporal geometries.}}{56}
+\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Time series of aggregated speed values from two pigeons separated by spatial geometries.}}{61}
+\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Weighted average speed of two pigeons obtained by aggregation over a \texttt {Spatial} grouping predicate with no respect of time}}{64}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

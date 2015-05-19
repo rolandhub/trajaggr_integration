@@ -1,0 +1,209 @@
+\begin{thebibliography}{}
+
+\bibitem[Andrienko and Andrienko, 2008]{andrienko2008spatio}
+Andrienko, G. and Andrienko, N. (2008).
+\newblock Spatio-temporal aggregation for visual analysis of movements.
+\newblock In {\em Visual Analytics Science and Technology, 2008. VAST'08. IEEE
+  Symposium on}, pages 51--58. IEEE.
+
+\bibitem[Andrienko and Andrienko, 2010]{andrienko2010general}
+Andrienko, G. and Andrienko, N. (2010).
+\newblock A general framework for using aggregation in visual exploration of
+  movement data.
+\newblock {\em The Cartographic Journal}, 47(1):22--40.
+
+\bibitem[Andrienko et~al., 2011]{andrienko2011conceptual}
+Andrienko, G., Andrienko, N., Bak, P., Keim, D., Kisilevich, S., and Wrobel, S.
+  (2011).
+\newblock A conceptual framework and taxonomy of techniques for analyzing
+  movement.
+\newblock {\em Journal of Visual Languages \& Computing}, 22(3):213--232.
+
+\bibitem[Andrienko and Andrienko, 2006]{andrienko2006exploratory}
+Andrienko, N. and Andrienko, G. (2006).
+\newblock {\em Exploratory analysis of spatial and temporal data}.
+\newblock Springer.
+
+\bibitem[Andrienko and Andrienko, 2011]{andrienko_spatial_2011}
+Andrienko, N. and Andrienko, G. (2011).
+\newblock Spatial generalization and aggregation of massive movement data.
+\newblock {\em {IEEE} transactions on visualization and computer graphics},
+  17(2):205--219.
+
+\bibitem[Andrienko and Andrienko, 2012]{andrienko2012visual}
+Andrienko, N. and Andrienko, G. (2012).
+\newblock Visual analytics of movement: An overview of methods, tools and
+  procedures.
+\newblock {\em Information Visualization}.
+
+\bibitem[Andrienko et~al., 2003]{andrienko_exploratory_2003}
+Andrienko, N., Andrienko, G., and Gatalsky, P. (2003).
+\newblock Exploratory spatio-temporal visualization: an analytical review.
+\newblock {\em Journal of Visual Languages \& Computing}, 14(6):503--541.
+
+\bibitem[Andrienko et~al., 2008]{andrienko2008basic}
+Andrienko, N., Andrienko, G., Pelekis, N., and Spaccapietra, S. (2008).
+\newblock Basic concepts of movement data.
+\newblock In {\em Mobility, Data Mining and Privacy}, pages 15--38. Springer.
+
+\bibitem[Bivand et~al., 2008]{bivand_applied_2008}
+Bivand, R.~S., Pebesma, E.~J., and G\'{o}mez-Rubio, V. (2008).
+\newblock {\em Applied Spatial Data Analysis With R}.
+\newblock Use R. Springer-Verlag, New York.
+
+\bibitem[Calenge, 2006]{calenge_adehabitatlt:_2014}
+Calenge, C. (2006).
+\newblock The package adehabitat for the r software: tool for the analysis of
+  space and habitat use by animals.
+\newblock {\em Ecological Modelling}, 197:1035.
+
+\bibitem[Calenge et~al., 2009]{calenge_concept_2009}
+Calenge, C., Dray, S., and Royer-Carenzi, M. (2009).
+\newblock The concept of animals' trajectories from a data analysis
+  perspective.
+\newblock {\em Ecological Informatics}, 4(1):34--41.
+
+\bibitem[D’Hondt et~al., 2013]{d2013participatory}
+D’Hondt, E., Stevens, M., and Jacobs, A. (2013).
+\newblock Participatory noise mapping works! an evaluation of participatory
+  sensing as an alternative to standard techniques for environmental
+  monitoring.
+\newblock {\em Pervasive and Mobile Computing}, 9(5):681--694.
+
+\bibitem[Elen et~al., 2012]{elen2012aeroflex}
+Elen, B., Peters, J., Poppel, M.~V., Bleux, N., Theunis, J., Reggente, M., and
+  Standaert, A. (2012).
+\newblock The aeroflex: a bicycle for mobile air quality measurements.
+\newblock {\em Sensors}, 13(1):221--240.
+
+\bibitem[Fredrikson et~al., 1999]{fredrikson_temporal_1999}
+Fredrikson, A., North, C., Plaisant, C., and Shneiderman, B. (1999).
+\newblock Temporal, geographical and categorical aggregations viewed through
+  coordinated displays: A case study with highway incident data.
+\newblock In {\em Proceedings of the 1999 Workshop on New Paradigms in
+  Information Visualization and Manipulation in Conjunction with the Eighth
+  {ACM} Internation Conference on Information and Knowledge Management},
+  {NPIVM} '99, pages 26--34, New York, {NY}, {USA}. {ACM}.
+
+\bibitem[Giannotti et~al., 2007]{giannotti_trajectory_2007}
+Giannotti, F., Nanni, M., Pinelli, F., and Pedreschi, D. (2007).
+\newblock Trajectory pattern mining.
+\newblock In {\em Proceedings of the 13th {ACM} {SIGKDD} International
+  Conference on Knowledge Discovery and Data Mining}, {KDD} '07, pages
+  330--339, New York, {NY}, {USA}. {ACM}.
+
+\bibitem[Goldstein and Roth, 1994]{goldstein_using_1994}
+Goldstein, J. and Roth, S.~F. (1994).
+\newblock Using aggregation and dynamic queries for exploring large data sets.
+\newblock In {\em Proceedings of the {SIGCHI} Conference on Human Factors in
+  Computing Systems}, {CHI} '94, pages 23--29, New York, {NY}, {USA}. {ACM}.
+
+\bibitem[Hijmans, 2014]{hijmans_raster:_2014}
+Hijmans, R.~J. (2014).
+\newblock {\em raster: Geographic data analysis and modeling}.
+\newblock R package version 2.3-12.
+
+\bibitem[Klus and Pebesma, 2014]{klus_analysing_2014}
+Klus, B. and Pebesma, E. (2014).
+\newblock {\em Analysing Trajectory Data in R}.
+
+\bibitem[Kranstauber and Smolla, 2014]{kranstauber_move:_2014}
+Kranstauber, B. and Smolla, M. (2014).
+\newblock move: Visualizing and analyzing animal track data.
+\newblock R package version 1.2.475.
+
+\bibitem[Lenz and Shoshani, 1997]{lenz_summarizability_1997}
+Lenz, H.-J. and Shoshani, A. (1997).
+\newblock Summarizability in {OLAP} and statistical data bases.
+\newblock pages 132--143. {IEEE} Computer Society.
+
+\bibitem[Mazón et~al., 2009]{mazon_survey_2009}
+Mazón, J.-N., Lechtenbörger, J., and Trujillo, J. (2009).
+\newblock A survey on summarizability issues in multidimensional modeling.
+\newblock {\em Data Knowl. Eng.}, 68(12):1452--1469.
+
+\bibitem[Meratnia and de~By, 2002]{meratnia_aggregation_2002}
+Meratnia, N. and de~By, R.~A. (2002).
+\newblock Aggregation and comparison of trajectories.
+\newblock In {\em Proceedings of the 10th {ACM} International Symposium on
+  Advances in Geographic Information Systems}, {GIS} '02, pages 49--54, New
+  York, {NY}, {USA}. {ACM}.
+
+\bibitem[Pebesma, 2012]{pebesma_spacetime:_2012}
+Pebesma, E. (2012).
+\newblock {spacetime}: Spatio-temporal data in {R}.
+\newblock {\em Journal of Statistical Software}, 51(7):1--30.
+
+\bibitem[Pebesma, 2014]{pebesma_cran_2014}
+Pebesma, E. (2014).
+\newblock {CRAN} task view: Handling and analyzing spatio-temporal data.
+
+\bibitem[Pebesma and Klus, 2014]{pebesma_trajectories:_2014}
+Pebesma, E. and Klus, B. (2014).
+\newblock {\em trajectories: Classes and methods for trajectory data}.
+\newblock R package version 0.1-2.
+
+\bibitem[Pebesma and Bivand, 2005]{pebesma_sp:_2014}
+Pebesma, E.~J. and Bivand, R.~S. (2005).
+\newblock Classes and methods for spatial data in {R}.
+\newblock {\em R News}, 5(2):9--13.
+
+\bibitem[{R Development Core Team}, 2014]{r_development_core_team_r:_2014}
+{R Development Core Team} (2014).
+\newblock {\em R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria.
+\newblock {ISBN} 3-900051-07-0.
+
+\bibitem[Roduit, 2009]{roduit2009trajectory}
+Roduit, P. (2009).
+\newblock Trajectory analysis using point distribution models.
+
+\bibitem[Ryan and Ulrich, 2014]{ryan_xts:_2014}
+Ryan, J.~A. and Ulrich, J.~M. (2014).
+\newblock {\em xts: eXtensible Time Series}.
+\newblock R package version 0.9-7.
+
+\bibitem[Santos et~al., 2014]{santos_temporal_2014}
+Santos, C.~D., Neupert, S., Lipp, H.-P., Wikelski, M., and Dechmann, D. K.~N.
+  (2014).
+\newblock Temporal and contextual consistency of leadership in homing pigeon
+  flocks.
+\newblock {\em {PLoS} {ONE}}, 9(7):e102771.
+
+\bibitem[Schabenberger and Gotway, 2004]{schabenberger_statistical_2004}
+Schabenberger, O. and Gotway, C.~A. (2004).
+\newblock {\em Statistical methods for spatial data analysis}.
+\newblock {CRC} Press.
+
+\bibitem[Spiegel et~al., 2013]{spiegel_factors_2013}
+Spiegel, O., Getz, W.~M., and Nathan, R. (2013).
+\newblock Factors influencing foraging search efficiency: Why do scarce
+  lappet-faced vultures outperform ubiquitous white-backed vultures?
+\newblock {\em The American Naturalist}, 181(5):E102--E115.
+
+\bibitem[Stasch et~al., 2014]{stasch_meaningful_2014}
+Stasch, C., Scheider, S., Pebesma, E., and Kuhn, W. (2014).
+\newblock Meaningful spatial prediction and aggregation.
+\newblock {\em Environmental Modelling \& Software}, 51:149--165.
+
+\bibitem[Stevens, 1946]{stevens_theory_1946}
+Stevens, S.~S. (1946).
+\newblock On the theory of scales of measurement.
+\newblock {\em Science (New York, N.Y.)}, 103(2684):677--680.
+
+\bibitem[Sumner, 2013]{sumner_trip:_2013}
+Sumner, M.~D. (2013).
+\newblock {\em trip: Spatial analysis of animal track data}.
+\newblock R package version 1.1-17.
+
+\bibitem[Wikelski and Kays, 2011]{wikelski_movebank:_2011}
+Wikelski, M. and Kays, R. (2011).
+\newblock Movebank: archive, analysis and sharing of animal movement data.
+\newblock {\em World Wide Web electronic publication}.
+
+\bibitem[Zeileis and Grothendieck, 2005]{zeileis_zoo:_2014}
+Zeileis, A. and Grothendieck, G. (2005).
+\newblock zoo: S3 infrastructure for regular and irregular time series.
+\newblock {\em Journal of Statistical Software}, 14(6):1--27.
+
+\end{thebibliography}

@@ -1,6 +1,6 @@
 Package: trajaggr
 Version: 0.1
-Title: Meaningful aggregation of trajectory data in R.
+Title: Meaningful aggregation of trajectory data in R
 Authors@R: person("Roland", "Harhoff", role = c("cre", "aut"), email =
     "rolandh@uni-muenster.de")
 Description: The package 'trajaggr' provides S4 generic methods for meaningful

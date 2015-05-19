@@ -52,7 +52,6 @@ require(sp)
 # 
 # !!!!!
 # # Load example data (for direct development)
-# load("/home/harry/BSc_Thesis_Traj/R/R_wd/Exploring_PkgCreation/trajcoer_test/trajcoert01/tests/testthat/adehabitatLT_extendedExData.RData")
 # # !!! #
 # load(paste(getwd(), "/tests/testthat/", "adehabitatLT_ExData.RData", sep=""))
 # ####
@@ -392,10 +391,8 @@ for (i in 1:length(trackObjList)) {
       expect_that(nrow(ltrdf_new), is_identical_to(nrow(t@data)))
       
       # coords
-      expect_that(ltrdf$x[ltrdf_legalRows], equals(t@sp@coords[,1]))
-      expect_that(ltrdf$y[ltrdf_legalRows], equals(t@sp@coords[,2]))
-      print(ltrdf$y[ltrdf_legalRows][1])
-      print(t@sp@coords[,2][1])
+      expect_that(ltrdf$x[ltrdf_legalRows], is_equivalent_to(t@sp@coords[,1]))
+      expect_that(ltrdf$y[ltrdf_legalRows], is_equivalent_to(t@sp@coords[,2]))
       
       # time
       expect_that(ltrdf$date[ltrdf_legalRows], is_equivalent_to(zoo::index(t@time)))
@@ -464,8 +461,8 @@ for (i in 1:length(trackObjList)) {
       expect_that(ltrdf_nrow - 1, equals(nrow(t@connections)))
       
       # coords
-      expect_that(ltrdf$x, equals(t@sp@coords[,1]))
-      expect_that(ltrdf$y, equals(t@sp@coords[,2]))
+      expect_that(ltrdf$x, is_equivalent_to(t@sp@coords[,1]))
+      expect_that(ltrdf$y, is_equivalent_to(t@sp@coords[,2]))
       
       # time
       expect_that(ltrdf$date, is_equivalent_to(zoo::index(t@time)))
